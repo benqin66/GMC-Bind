@@ -5,3 +5,6 @@ A new method used for Enhancing RNA-Protein Binding Prediction via Cross-Attenti
 Pytorch 2.4.0
 
 python >=3.8, <3.13
+
+# Dataset
+https://www.bioinf.uni-freiburg.de/subpage/software/graphprot
