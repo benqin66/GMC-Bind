@@ -7,4 +7,4 @@ Pytorch 2.4.0
 python >=3.8, <3.13
 
 # Dataset
-https://www.bioinf.uni-freiburg.de/subpage/software/graphprot
+Download the trainig and testing data from https://www.bioinf.uni-freiburg.de/subpage/software/graphprot
