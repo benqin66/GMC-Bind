@@ -1,1 +1,56 @@
 
+{
+    "gpu": {
+        "use": true,
+        "id": 0
+    },
+    "model": "GMCBind",
+    "dataset": "ALKBH5_Baltz2012",
+    "data_path": "./data/GraphProt_CLIP_sequences/",
+    "struct_path": "./data/secondary_structure/",
+    "out_dir": "./output",
+    "params": {
+        "seed": 42,
+        "epochs": 100,
+        "batch_size": 32,
+        "init_lr": 0.0001,
+        "lr_reduce_factor": 0.5,
+        "lr_schedule_patience": 10,
+        "min_lr": 0.00001,
+        "weight_decay": 0.0001,
+        "print_epoch_interval": 1,
+        "max_time": 24
+    },
+    "net_params": {
+        "n_layers": 4,
+        "gat_heads": 8,
+        "d_model": 768,
+        "label_smoothing": 0.1,
+        "L": 2,
+        "hidden_dim": 128,
+        "in_dim": 5,
+        "out_dim": 64,
+        "residual": true,
+        "edge_feat": true,
+        "readout": "mean",
+        "kernel": 3,
+        "n_heads": 4,
+        "gated": true,
+        "in_feat_dropout": 0.1,
+        "dropout": 0.3,
+        "layer_norm": true,
+        "batch_norm": true,
+        "sage_aggregator": "mean",
+        "data_mode": "default",
+        "num_pool": 1,
+        "gnn_per_block": 1,
+        "embedding_dim": 64,
+        "pool_ratio": 0.5,
+        "linkpred": false,
+        "cat": false,
+        "self_loop": true
+    },
+    "debias": "False",
+    "motif": "False",
+    "best_epoch": 0
+}
