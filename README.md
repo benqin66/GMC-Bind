@@ -3,4 +3,5 @@ A new method used for Enhancing RNA-Protein Binding Prediction via Cross-Attenti
 
 # Dependency
 Pytorch 2.4.0
+
 python >=3.8, <3.13
